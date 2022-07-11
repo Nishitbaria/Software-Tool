@@ -1,0 +1,38 @@
+
+header {
+	background-color: grey;
+  padding: 30px;
+  height:10%;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
+nav {
+  float: left;
+  height:70%;
+  width: 30%; 
+  background: #ccc;
+
+}
+
+article {
+  float: left;
+  width: 70%;
+  height:70%;
+  background-color: #f1f1f1;
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #777;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  float:left;
+  height: 10%;
+  width:100%;
+}
