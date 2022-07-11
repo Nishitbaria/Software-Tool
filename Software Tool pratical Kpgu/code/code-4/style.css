@@ -1,0 +1,34 @@
+table, th, tr{
+	border: 2px solid blue;
+}
+#fst{
+	background-color: gray;
+}
+.odd{
+	background-color: #ddd;
+}
+.even{
+	background-color: #ffffff;
+}
+tr:hover{
+	background-color: #f5f5dc;
+}
+ul{
+	list-style-image: url('img.png');
+	list-style-position:inside;
+}
+li:nth-child(even){
+	color:red;
+}
+li:nth-child(odd){
+	color:blue;
+}
+
+or 
+
+li:nth-child(1n){
+	color:red;
+}
+li:nth-child(2n){
+	color:blue;
+}

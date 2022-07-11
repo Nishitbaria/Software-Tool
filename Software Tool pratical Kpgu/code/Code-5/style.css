@@ -1,0 +1,20 @@
+p{
+	color: #838b8b;
+	font-family: "Times New Roman";
+	font-size: 14px;
+}
+#p1{
+	text-align: left;
+}
+#p2{
+	text-align: right;
+}
+h3{
+	text-transform: uppercase;
+	font-family: "Times New Roman";
+	font-size: 14px;
+}
+span{
+	font-weight: bold;
+	background-color: yellow;
+}

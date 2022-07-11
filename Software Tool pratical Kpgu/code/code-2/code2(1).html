@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>" html table"</title>
+
+</head>
+ <style>
+ table,th,tr {
+  border:2px solid black;
+  border-collapse: collapse;
+  height=300px;
+  width:500px;
+}
+</style>
+<body>
+<table>
+<tr>
+ <tr id="h1">
+ <th rowspan="3">A</th>
+ <th>B</th>
+ <th colspan="2">C</th>
+ <th>D</th>
+ <th colspan="2" rowspan="2">E</th>
+</tr>
+<tr>
+ <tr class="even">
+ <th rowspan="3">F</th>
+ <th>G</th>
+ <th rowspan="3">H</th>
+ <th>I</th>
+</tr>
+<tr>
+ <tr class="odd">
+ <th>K</th>
+ <th>L</th>
+ <th>M</th>
+ <th>N</th>
+</tr>
+<tr>
+ <tr class="even">
+ <th>O</th>
+ <th>P</th>
+ <th colspan="4">Q</th>
+</tr>
+
+</table>
+</body>
+</html>
