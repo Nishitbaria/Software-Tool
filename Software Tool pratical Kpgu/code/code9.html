@@ -1,0 +1,23 @@
+<!-- pratical-9 -->
+<html>
+	<body>
+		<script type="text/javascript">
+			var a,b,c,i,j,found=0;
+			a=prompt("Enter String: ");
+			b=prompt("Enter word to search: ");
+			c=a.split(" ");
+			for(i=0;i<c.length;i++)
+			{
+				if(c[i]==b)
+				{
+					found=1;
+					break;
+				}
+			}
+			if(found==1)
+				alert(b+" found at index "+(i+1));
+			else
+				alert(b+" not found in the string!!");
+		</script>
+	</body>
+</html>

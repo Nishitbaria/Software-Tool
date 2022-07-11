@@ -1,0 +1,21 @@
+<!-- pratical-11 -->
+<html>
+<body>
+<p>Press any key:
+<input type="text" id="txt" onkeypress="check(event)" onkeyup="chngColor()">
+</p>
+<script type="text/javascript">
+function check(event) {
+var x = event.keyCode;
+if( x == 97 || x == 101 || x == 105 || x == 111 || x == 117 || x == 65 || x == 69 || x == 73 || x == 79 || x == 85 ) {
+alert("Key code: "+x+"\nVowel pressed");
+} else {
+alert("Key code: "+x);
+}
+}
+function chngColor() {
+document.getElementById("txt").style.backgroundColor = "red";
+}
+</script>
+</body>
+</html>
