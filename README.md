@@ -1,2 +1,2 @@
-# Software-Tool
-Code of Html,Css,Javascript OF Kpgu
+practical solution For Software-Tool 
+Code are use in this Subject is Html,css,java-scripte........
