@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Events Example</title>
+    <style>
+      h1 {
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        text-align: center;
+      }
+      .red-background {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="my-heading">Hello World</h1>
+    <script>
+      // Trap the exiting of the user from a page
+      window.addEventListener("beforeunload", function (event) {
+        event.preventDefault();
+        event.returnValue = "";
+      });
+
+      // Show the heading with different background color when the mouse is over it
+      var heading = document.getElementById("my-heading");
+      heading.addEventListener("mouseover", function (event) {
+        heading.classList.add("red-background");
+      });
+      heading.addEventListener("mouseout", function (event) {
+        heading.classList.remove("red-background");
+      });
+    </script>
+  </body>
+</html>
